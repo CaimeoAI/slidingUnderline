@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    width: 25%;
+    padding: .75rem 0;
+    color: #333;
+}
+
+.navitem2:hover ~ hr {
+    margin-left: 25%;
+}
+
+.navitem3:hover ~ hr {
+    margin-left: 50%;
+}
+
+.navitem4:hover ~ hr {
+    margin-left: 75%;
+}
+
+hr {
+    height: .25rem;
+    width: 25%;
+    background: lightblue;
+    border: none;
+    transition: .5s ease-in-out;
+}
